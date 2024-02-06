@@ -4,7 +4,7 @@ import NavbarMenuButton from "./NavbarMenuButton";
 import HomeIcon from "./icons/HomeIcon";
 import AboutIcon from "./icons/AboutIcon";
 import ProjectsIcon from "./icons/ProjectsIcon";
-import ContactIcon from "./icons/ContactIcon";
+import SkillsIcon from "./icons/SkillsIcon";
 
 function Navbar() {
   const [expanded, setExpanded] = useState(false);
@@ -40,16 +40,16 @@ function Navbar() {
           setExpanded={setExpanded}
         />
         <NavbarLink
-          to={"projects"}
-          text={"My projects"}
-          icon={<ProjectsIcon size={iconSize} />}
+          to={"skill"}
+          text={"Skills"}
+          icon={<SkillsIcon size={iconSize} />}
           expanded={expanded}
           setExpanded={setExpanded}
         />
         <NavbarLink
-          to={"contact"}
-          text={"Contact me"}
-          icon={<ContactIcon size={iconSize} />}
+          to={"projects"}
+          text={"My projects"}
+          icon={<ProjectsIcon size={iconSize} />}
           expanded={expanded}
           setExpanded={setExpanded}
         />

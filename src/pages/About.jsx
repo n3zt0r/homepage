@@ -3,7 +3,7 @@ import LoadingPanels from "../components/LoadingPanels";
 
 function About() {
   return (
-    <div className="h-screen">
+    <div className="h-full">
       <div className="w-full">
         <CardInfo />
       </div>
