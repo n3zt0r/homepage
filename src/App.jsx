@@ -9,12 +9,12 @@ import ContactBar from "./components/Contact/ContactBar";
 function App() {
   return (
     <BrowserRouter>
-      <div className="w-screen flex h-full">
-        <div className="flex">
+      <div className="w-screen screen grid grid-cols-1 sm:grid-cols-[56px_1fr_56px]">
+        <div className="z-50">
           <Navbar />
         </div>
 
-        <div className="flex-1 w-full overflow-clip">
+        <div className="sm:min-h-screen min-h-[calc(100vh-56px-56px)] grid place-content-center bg-gray-200">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -23,7 +23,7 @@ function App() {
           </Routes>
         </div>
 
-        <div className="flex overflow-clip shadow-xl">
+        <div className="shadow-xl z-50">
           <ContactBar />
         </div>
       </div>

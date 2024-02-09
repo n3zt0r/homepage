@@ -33,30 +33,30 @@ function LoadingPanels() {
   });
 
   return (
-    <div>
+    <div className="hidden xl:inline">
       <animated.div
         style={style6}
-        className={"bg-gray-300 absolute top-0 left-0 hidden xl:inline"}
+        className={"bg-gray-300 absolute top-0 left-0"}
       />
       <animated.div
         style={style5}
-        className={"bg-gray-400 absolute top-0 left-0 hidden xl:inline"}
+        className={"bg-gray-400 absolute top-0 left-0"}
       />
       <animated.div
         style={style4}
-        className={"bg-gray-500 absolute top-0 left-0 hidden xl:inline"}
+        className={"bg-gray-500 absolute top-0 left-0"}
       />
       <animated.div
         style={style3}
-        className={"bg-gray-600 absolute top-0 left-0 hidden xl:inline"}
+        className={"bg-gray-600 absolute top-0 left-0"}
       />
       <animated.div
         style={style2}
-        className={"bg-gray-700 absolute top-0 left-0 hidden xl:inline"}
+        className={"bg-gray-700 absolute top-0 left-0"}
       />
       <animated.div
         style={style1}
-        className={"bg-gray-800 absolute top-0 left-0 hidden xl:inline"}
+        className={"bg-gray-800 absolute top-0 left-0"}
       />
     </div>
   );

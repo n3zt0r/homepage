@@ -3,10 +3,9 @@ import LoadingPanels from "../components/LoadingPanels";
 
 function About() {
   return (
-    <div className="h-full">
-      <div className="w-full">
-        <CardInfo />
-      </div>
+    <div className="w-80 md:w-[560px]">
+      <CardInfo />
+
       <LoadingPanels />
     </div>
   );

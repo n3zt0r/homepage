@@ -26,7 +26,7 @@ function NavbarLink({ to, text, icon, expanded, setExpanded }) {
         onMouseLeave={handleMouseLeave}
         onClick={() => setExpanded(false)}
       >
-        <span className="mr-5">{icon}</span>
+        <span className="mr-5 select-none">{icon}</span>
         {text}
       </Link>
     </li>

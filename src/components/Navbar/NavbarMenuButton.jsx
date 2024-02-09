@@ -1,6 +1,10 @@
 const NavbarMenuButton = ({ onClick, expanded }) => {
   return (
-    <div className="border-b-2 border-gray-500 pb-3">
+    <div
+      className={`${
+        expanded && "border-b-2"
+      } sm:border-b-2 border-gray-500 pb-3`}
+    >
       <svg
         onClick={onClick}
         width="24"

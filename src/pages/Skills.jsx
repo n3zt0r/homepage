@@ -2,8 +2,8 @@ import LoadingPanels from "../components/LoadingPanels";
 
 function Skills() {
   return (
-    <div className="bg-gray-200 h-full">
-      <div className="w-full">Skills</div>
+    <div>
+      <div>Skills</div>
       <LoadingPanels />
     </div>
   );
