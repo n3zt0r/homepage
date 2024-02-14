@@ -9,7 +9,7 @@ import ContactBar from "./components/Contact/ContactBar";
 function App() {
   return (
     <BrowserRouter>
-      <div className="w-screen screen grid grid-cols-1 sm:grid-cols-[56px_1fr_56px]">
+      <div className="w-screen screen grid grid-cols-1 max-sm:grid-rows-[56px_1fr_56px] sm:grid-cols-[56px_1fr_56px]">
         <div className="z-50">
           <Navbar />
         </div>

@@ -9,9 +9,9 @@ function ContactBar() {
   };
 
   return (
-    <div className="bg-gray-100 text-gray-800 grid sm:place-content-center h-14 sm:h-full sm:w-14 overflow-hidden">
+    <div className="bg-gray-800 text-gray-100 grid sm:place-content-center h-14 sm:h-full sm:w-14 overflow-hidden">
       <h2
-        className="text-gray-100 bg-gray-800 w-full pt-3 pb-4 text-center text-xl sm:hidden max-sm:col-span-2 cursor-pointer"
+        className="w-full pt-3 pb-4 text-center text-xl sm:hidden max-sm:col-span-2 cursor-pointer"
         onClick={toggleHidden}
       >
         Contactame
@@ -21,11 +21,15 @@ function ContactBar() {
         className={`${
           isHidden ? "max-sm:hidden" : "max-sm:absolute"
         } max-sm:bg-gray-800 max-sm:bg-opacity-90 max-sm:w-screen max-sm:h-screen max-sm:top-0 max-sm:left-0 grid place-content-center`}
+        onClick={toggleHidden}
       >
-        <div className="relative sm:p-3 px-4 py-10 flex flex-col justify-center items-center gap-10 bg-gray-100 sm:h-80">
+        <div
+          className="relative sm:p-3 px-4 py-10 flex flex-col justify-center sm:items-center gap-10 sm:h-80 max-sm:bg-gray-700"
+          onClick={(e) => e.stopPropagation()}
+        >
           <img
             src="./buttons/menu_x.svg"
-            className="absolute top-2 left-2 sm:hidden cursor-pointer"
+            className="absolute top-2 left-2 sm:hidden cursor-pointer hover:scale-125 ease-out duration-200"
             onClick={toggleHidden}
           />
 

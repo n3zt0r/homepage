@@ -1,6 +1,6 @@
 const CardInfo = () => {
   return (
-    <div className="max-sm:mt-[2rem] ml-0 md:ml-[1rem] text-center md:text-left flex flex-col md:flex-row items-center bg-gray-100 shadow-gray-800 shadow-md">
+    <div className="max-sm:mt-[2rem] ml-0 md:ml-[1rem] text-center md:text-left flex flex-col md:flex-row items-center bg-gray-100 shadow-gray-800 shadow-md lg:scale-150">
       <img
         className="shadow-gray-800 shadow-md mt-[-2rem] md:mt-0 ml-0 md:ml-[-2rem] size-[170px]"
         src="./foto.jpg"
