@@ -20,11 +20,11 @@ function ContactBar() {
       <div
         className={`${
           isHidden ? "max-sm:hidden" : "max-sm:absolute"
-        } max-sm:bg-gray-800 max-sm:bg-opacity-90 max-sm:w-screen max-sm:h-screen max-sm:top-0 max-sm:left-0 grid place-content-center`}
+        } max-sm:bg-gray-800 max-sm:bg-opacity-90 max-sm:w-screen max-sm:h-screen max-sm:top-0 max-sm:left-0 grid place-content-center h-full`}
         onClick={toggleHidden}
       >
         <div
-          className="relative sm:p-3 px-4 py-10 flex flex-col justify-center sm:items-center gap-10 sm:h-80 max-sm:bg-gray-700"
+          className="relative sm:p-3 px-4 py-10 flex flex-col justify-center sm:items-center gap-10 sm:h-80 max-sm:bg-gray-800"
           onClick={(e) => e.stopPropagation()}
         >
           <img

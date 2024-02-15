@@ -1,4 +1,4 @@
-import AnimatedText from "../components/AnimatedText";
+import AnimatedText from "../components/Home/AnimatedText";
 
 function Home() {
   return (
