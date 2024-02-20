@@ -30,6 +30,16 @@ const HorizontalAutoScrollGallery = () => {
       img: "./projects/anime-finder.jpg",
       url: "https://n3zt0r-anime-finder.onrender.com/",
     },
+    {
+      name: "Citas React",
+      img: "./projects/citas-react.jpg",
+      url: "https://nestorlp-citas-react.netlify.app/",
+    },
+    {
+      name: "Control de gastos en React",
+      img: "./projects/control-gastos-react.jpg",
+      url: "https://nestorlp-control-gastos.netlify.app/",
+    },
   ];
 
   const settings = {

@@ -39,6 +39,7 @@ function Skills() {
                 alt={`Background ${index}`}
                 className="w-[60px] xl:w-[80px]"
               />
+
               <span className="group-hover:opacity-100 opacity-0 duration-300 ease-out grid place-content-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-800 text-gray-200 shadow-md px-3 py-1 w-full h-full font-semibold text-lg sm:text-xl text-center select-none">
                 {name}
               </span>
