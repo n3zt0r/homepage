@@ -3,17 +3,17 @@ function ProjectCard({ page }) {
   console.log(techs);
 
   return (
-    <div>
+    <div className="max-sm:w-[90%]">
       <a
         href={url}
         rel="noreferrer"
         target="_blank"
-        className="max-sm:px-6 group mx-6 mt-9 max-w-[480px] h-auto bg-gray-100 shadow-md grid place-content-center hover:scale-105 ease-out duration-200"
+        className="max-sm:px-6 group mx-6 mt-9 max-sm:min-w-full max-w-[480px] h-auto bg-gray-100 shadow-md grid place-content-center hover:scale-105 ease-out duration-200"
       >
         {/********************* Image *********************/}
         <img
           src={img}
-          className="relative left-1/2 -translate-x-1/2 w-[400px] shadow-gray-800 shadow-md translate-y-[-20px] group-hover:scale-105 ease-out duration-200"
+          className="relative left-1/2 -translate-x-1/2 w-[400px] max-sm:max-w-[90%] shadow-gray-800 shadow-md translate-y-[-20px] group-hover:scale-105 ease-out duration-200"
         />
 
         {/****************** Development ******************/}
@@ -50,7 +50,7 @@ function ProjectCard({ page }) {
         </div>
 
         {/********************** Title **********************/}
-        <h2 className="text-3xl font-bold mt-3">{name}</h2>
+        <h2 className="max-sm:p-3 text-3xl font-bold mt-3">{name}</h2>
 
         <div className="bg-gray-200 text-start flex gap-6 mt-2 mb-6 text-gray-800 px-6 py-3">
           {/******************* Technologies *******************/}

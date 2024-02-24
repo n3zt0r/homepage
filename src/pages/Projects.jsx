@@ -3,7 +3,7 @@ import HorizontalAutoScrollGallery from "../components/Projects/HorizontalAutoSc
 
 function Projects() {
   return (
-    <div className="grid place-content-center text-center grid-flow-row grid-rows-[1fr_6fr]">
+    <div className="min-h-screen max-h-fit grid place-content-center text-center grid-flow-row grid-rows-[1fr_6fr]">
       <h2 className="grid place-content-center text-5xl sm:text-6xl font-bold text-gray-800">
         Mis proyectos
       </h2>

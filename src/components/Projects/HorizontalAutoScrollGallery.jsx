@@ -21,7 +21,6 @@ const HorizontalAutoScrollGallery = () => {
         breakpoint: 768,
         settings: {
           centerMode: true,
-          dots: false,
           arrows: false,
           slidesToShow: 1,
         },

@@ -1,15 +1,13 @@
 import { useState } from "react";
 import ContactLink from "./ContactLink";
 
-function ContactBar() {
-  const [isHidden, setHidden] = useState(true);
-
+function ContactBar({ isHidden, setHidden }) {
   const toggleHidden = () => {
     setHidden(!isHidden);
   };
 
   return (
-    <div className="bg-gray-800 text-gray-100 grid sm:place-content-center h-14 sm:h-full sm:w-14 overflow-hidden">
+    <div className="bg-gray-800 text-gray-100 grid sm:place-content-center h-14 sm:h-full sm:w-14">
       <h2
         className="w-full pt-3 pb-4 text-center text-xl sm:hidden max-sm:col-span-2 cursor-pointer"
         onClick={toggleHidden}
@@ -20,7 +18,7 @@ function ContactBar() {
       <div
         className={`${
           isHidden ? "max-sm:hidden" : "max-sm:absolute"
-        } max-sm:bg-gray-800 max-sm:bg-opacity-90 max-sm:w-screen max-sm:h-screen max-sm:top-0 max-sm:left-0 grid place-content-center h-full`}
+        } max-sm:bg-gray-800 max-sm:bg-opacity-95 max-sm:w-screen max-sm:h-full max-sm:min-h-fit max-sm:top-0 max-sm:left-0 grid place-content-center h-full`}
         onClick={toggleHidden}
       >
         <div
@@ -73,5 +71,7 @@ function ContactBar() {
     </div>
   );
 }
+
+ContactBar.propTypes = String;
 
 export default ContactBar;
