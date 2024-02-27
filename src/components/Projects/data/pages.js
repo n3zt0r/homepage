@@ -10,6 +10,7 @@ export const pages = [
       { name: "Vite", ver: "v5.0.8" },
       { name: "TailwindCSS", ver: "v3.4.1" },
       { name: "React Router DOM", ver: "v6.21.3" },
+      { name: "React Spring", ver: "v9.7.3" },
       { name: "React Slick", ver: "v0.30.1" },
     ],
     tools: ["VS Code", "GitHub"],
@@ -108,9 +109,8 @@ export const pages = [
     techs: [
       { name: "React", ver: "v18.2.0" },
       { name: "Vite", ver: "v5.0.8" },
-      { name: "Emotion/Styled", ver: "v11.11.0" },
-      { name: "Emotion/React", ver: "v11.11.3" },
+      { name: "Emotion Styled", ver: "v11.11.0" },
     ],
-    tools: ["VS Code", "GitHub"],
+    tools: ["VS Code", "GitHub", "CryptoCompare API"],
   },
 ];
