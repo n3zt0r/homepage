@@ -143,4 +143,32 @@ export const pages = [
     ],
     tools: ["VS Code", "GitHub", "MongoDB Compass", "Postman"],
   },
+  {
+    name: "GuitarLA - API",
+    img: "./projects/guitarla-api.jpg",
+    url: "https://guitarla-strapi-recq.onrender.com/api/guitarras",
+    gitHub: "https://github.com/n3zt0r/guitarla-strapi",
+    dev: "BE",
+    techs: [
+      { name: "JavaScript", ver: "" },
+      { name: "Node.js", ver: "v18.0" },
+      { name: "Strapi", ver: "v4" },
+      { name: "Provider Upload Cloudinary", ver: "v4.20.3" },
+    ],
+    tools: ["VS Code", "GitHub", "Cloudinary"],
+  },
+  {
+    name: "GuitarLA - Remix",
+    img: "./projects/guitarla-remix.jpg",
+    url: "https://guitarla-remix-eta.vercel.app/",
+    gitHub: "https://github.com/n3zt0r/guitarla-remix",
+    dev: "FS",
+    techs: [
+      { name: "Remix", ver: "v2.8" },
+      { name: "Node.js", ver: "v18.0" },
+      { name: "React", ver: "v18.2.0" },
+      { name: "Remix Utils", ver: "v7.5.0" },
+    ],
+    tools: ["VS Code", "GitHub", "GuitarLA API"],
+  },
 ];
